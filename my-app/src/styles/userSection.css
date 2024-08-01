@@ -1,0 +1,42 @@
+.user-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+  }
+  .user-card h3,
+.user-card p {
+  white-space: nowrap;        
+  overflow: hidden;           
+  text-overflow: ellipsis;    
+}
+
+.user-section {
+  max-width: 1600px;
+  text-align: center;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 400px));
+  justify-content: center ;
+  gap : 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.user-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .user-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  }
+}

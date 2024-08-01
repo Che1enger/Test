@@ -1,0 +1,25 @@
+.custom-button {
+    padding: 10px 20px;
+    max-width: 150px;
+    font-size: 16px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button.active {
+    background-color: #F4E041;
+    color: black;
+  }
+  .custom-button.active:hover {
+    background-color: #FFE302;
+  }
+  
+  .custom-button.inactive {
+    background-color: #B4B4B4;
+    color: white;
+    cursor: not-allowed;
+  }
+  

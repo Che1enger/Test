@@ -1,0 +1,33 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/bg.webp');
+    background-size: cover;
+    background-position: center;
+    max-width: 1620px;
+    height: 100vh;
+    max-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 40px;
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: clamp(2em, 2vw + 1em, 3em);
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: clamp(1,2em, 2vw + 1em, 2em);
+  }

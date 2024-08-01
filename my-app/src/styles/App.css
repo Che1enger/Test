@@ -1,0 +1,16 @@
+/* TestAssignmentPage.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8;
+}
+
+.test-assignment-page {
+
+  margin: 0 auto;
+  max-width: 1600px;
+
+  min-height: 100vh;
+}
+
